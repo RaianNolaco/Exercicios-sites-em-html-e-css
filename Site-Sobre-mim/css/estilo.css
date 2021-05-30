@@ -1,0 +1,36 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  /*usa a primeria opção caso nn haja a font arial ele procura 
+  pela helvevica caso nn tenha nenhuma das suas primeiras ele ira 
+  procurar sans-serif*/
+ 
+  font-size:13px
+
+}
+
+h1,h2,h3,p{
+
+   margin:10px;
+
+}
+
+h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+h2{ 
+
+   font-size:15px;
+
+}
+
+.conteudoHome{
+
+    max-width:920px;
+    background: blue;
+    margin: 0 auto;
+
+}
