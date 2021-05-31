@@ -43,3 +43,9 @@ nav ul {
   display: flex;  
 
 }
+
+a,img{
+
+  position: center;
+
+}
