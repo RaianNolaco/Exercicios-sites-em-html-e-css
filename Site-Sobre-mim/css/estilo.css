@@ -49,3 +49,44 @@ a,img{
   position: center;
 
 }
+
+nav ul li{
+
+  padding: 1% 0;
+  margin: 0 2%;
+  width: 25%;
+  text-align: center;
+
+}
+
+nav ul li a{
+
+  color: #fff;
+  text-decoration: none;
+
+}
+
+nav ul li a:hover{
+
+     text-decoration: underline;
+     text-shadow: 1px 1px 1px #999;
+
+}
+
+form{
+
+  display:flex;
+  flex-direction: row;
+
+}
+
+.galeria img {
+
+    max-width: 500px;
+    
+    margin: 3% auto;
+    display: block;
+    box-shadow: 5px 5px 3px #999;
+
+
+}
