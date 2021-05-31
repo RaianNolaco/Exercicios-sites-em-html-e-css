@@ -5,16 +5,18 @@
   /*usa a primeria opção caso nn haja a font arial ele procura 
   pela helvevica caso nn tenha nenhuma das suas primeiras ele ira 
   procurar sans-serif*/
- 
+  font-family: Arial, Helvetica, sans-serif;
   font-size:13px
 
 }
 
-h1,h2,h3,p{
+h1,h2,h3,p,ul,li{
 
    margin:10px;
 
 }
+
+
 
 h1 {
   font-size: 32px;
@@ -30,13 +32,14 @@ h2{
 .conteudoHome{
 
     max-width:920px;
-    background: blue;
+    background:gray;
     margin: 0 auto;
 
 }
 
 nav ul {
 
-  list-style:none;  
+  list-style:none;
+  display: flex;  
 
 }
