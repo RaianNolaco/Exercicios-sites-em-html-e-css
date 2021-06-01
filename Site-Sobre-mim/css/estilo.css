@@ -5,8 +5,17 @@
   /*usa a primeria opção caso nn haja a font arial ele procura 
   pela helvevica caso nn tenha nenhuma das suas primeiras ele ira 
   procurar sans-serif*/
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: VCR,Arial, Helvetica, sans-serif;
   font-size:13px;
+   
+
+}
+@font-face {
+  
+  font-family: 'VCR';
+  src: url('../font/vcr_osd_mono/VCR_OSD_MONO_1.001.ttf');
+  font-weight: normal;
+  font-style: normal;
 
 }
 
