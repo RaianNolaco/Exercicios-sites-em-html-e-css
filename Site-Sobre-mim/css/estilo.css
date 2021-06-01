@@ -6,13 +6,21 @@
   pela helvevica caso nn tenha nenhuma das suas primeiras ele ira 
   procurar sans-serif*/
   font-family: Arial, Helvetica, sans-serif;
-  font-size:13px
+  font-size:13px;
+
+}
+
+body{
+
+  background-image: url('../midia/fundo_2.jpg');
 
 }
 
 h1,h2,h3,p,ul,li{
 
    margin:10px;
+   color: #FFFFFF;
+   
 
 }
 
@@ -21,6 +29,7 @@ h1,h2,h3,p,ul,li{
 h1 {
   font-size: 32px;
   text-align: center;
+  font-smooth: never; 
 }
 
 h2{ 
@@ -32,7 +41,7 @@ h2{
 .conteudoHome{
 
     max-width:920px;
-    background:gray;
+    background:rgb(63, 62, 62);
     margin: 0 auto;
 
 }
@@ -56,6 +65,7 @@ nav ul li{
   margin: 0 2%;
   width: 25%;
   text-align: center;
+  align-items:center;
 
 }
 
@@ -89,4 +99,43 @@ form{
     box-shadow: 5px 5px 3px #999;
 
 
+}
+
+nav{
+
+  padding: 0.5% 0;
+  background: rgb(31, 30, 30);
+  
+}
+
+.menu{
+
+  justify-content: center;
+}
+
+header{
+ 
+  padding: 1% 0;
+  background:rgb(63, 62, 62);
+  color: #FFFFFF;
+  
+
+}
+
+
+footer{
+  padding: 1% 0;
+  background: #333;
+  color: #FFFFFF;
+}
+
+.img{
+  width:50px;
+  height:50px;
+  transition: all .7s;
+}
+
+.img:hover {
+  width:60px;
+  height:60px;
 }
