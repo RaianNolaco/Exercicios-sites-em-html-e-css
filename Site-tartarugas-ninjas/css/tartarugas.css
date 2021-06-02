@@ -5,6 +5,15 @@
     font-family: "Lucida Sans", sans-serif;
 }
 
+@font-face{
+
+    font-family:'ninja';
+    src: url('../Font/ninja/NINJA.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .cabecalho {
     background-color: #336699;
     color: #ffffff;
@@ -12,7 +21,29 @@
     height:12vh;
 }
 
+header{
 
+    display: flex; 
+    justify-content: center;
+}
+
+h1,h2,a{
+
+font-family: ninja;
+
+}
+
+.logo{
+
+ width: 100%;
+
+}
+
+.barra-lateral-direita img{
+
+    width:100%;
+
+}
 /*Leonardo color*/
 .leo .cabecalho {
 
@@ -104,7 +135,56 @@
     background-color: #f5702e;
 }
 
+.mike .rodape {
 
+    background-color: #f5702e;
+}
+
+/*inicio color*/
+.inicio .cabecalho {
+
+    background-color: #30AB49;
+}
+
+
+.inicio .barra-lateral-direita h2{
+
+    color: #30AB49;
+}
+
+
+.inicio .barra-lateral-esquerda li{
+
+    background-color: #30AB49;
+}
+
+.inicio .rodape {
+
+    background-color: #30AB49;
+}
+
+/*Mestre splinter color*/
+.mestre .cabecalho {
+
+    background-color: #321018;
+}
+
+
+.mestre .barra-lateral-direita h2{
+
+    color: #321018;
+}
+
+
+.mestre .barra-lateral-esquerda li{
+
+    background-color: #321018;
+}
+
+.mestre .rodape {
+
+    background-color: #321018;
+}
 
 .conteudo{
     width: 100%;
@@ -169,8 +249,36 @@ img .armas{
     display: block;
 }
 
-.barra-lateral-esquerda li:hover {
-    background-color: #0099cc;
+#inicio_menu:hover{
+
+    background-color: #30AB49;
+    box-shadow: 2px 2px 2px #10581e;
+
+}
+
+#leo_menu:hover {
+    background-color: #343A94;
+    box-shadow: 2px 2px 2px #0c0f42;
+}
+
+#rapha_menu:hover {
+    background-color: #981f23;
+    box-shadow: 2px 2px 2px #5a0e10;
+}
+
+#done_menu:hover {
+    background-color: #9f6daa;
+    box-shadow: 2px 2px 2px #541b61;
+}
+
+#mike_menu:hover {
+    background-color: #f5702e;
+    box-shadow: 2px 2px 2px #743617;
+}
+
+#mestre_menu:hover {
+    background-color: #321018;
+    box-shadow: 2px 2px 2px #1a070b;
 }
 
 .barra-lateral-direita h2{
