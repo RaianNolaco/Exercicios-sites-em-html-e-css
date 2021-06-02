@@ -39,6 +39,12 @@ font-family: ninja;
 
 }
 
+.cabecalho{
+
+  justify-content: center;
+
+}
+
 /*arruma o img das armas*/
 .barra-lateral-direita img{
 
