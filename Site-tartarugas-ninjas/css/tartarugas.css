@@ -41,7 +41,8 @@ font-family: ninja;
 
 .cabecalho{
 
-  justify-content: center;
+  display: flex;
+  justify-content:  center;
 
 }
 
@@ -54,49 +55,49 @@ font-family: ninja;
 /*Leonardo color*/
 .leo .cabecalho {
 
-    background-color: #343A94;
+    background-color: #637CC1;
 }
 
 
 .leo .barra-lateral-direita h2{
 
-    color: #343A94;
+    color: #637CC1;
 }
 
 
 .leo .barra-lateral-esquerda li{
 
-    background-color: #343A94;
+    background-color: #637CC1;
 }
 
 
 .leo .rodape {
 
-    background-color: #343A94;
+    background-color: #637CC1;
 }
 
 /*Raphael color*/
 .Rapha .cabecalho {
 
-    background-color: #981f23;
+    background-color: #B8342D;
 }
 
 
 .Rapha .barra-lateral-direita h2{
 
-    color: #981f23;
+    color: #B8342D;
 }
 
 
 .Rapha .barra-lateral-esquerda li{
 
-    background-color: #981f23;
+    background-color: #B8342D;
 }
 
 
 .Rapha .rodape {
 
-    background-color: #981f23;
+    background-color: #B8342D;
 }
 
 
@@ -127,24 +128,24 @@ font-family: ninja;
 /*Michelangelo color*/
 .mike .cabecalho {
 
-    background-color: #f5702e;
+    background-color: #F2B031;
 }
 
 
 .mike .barra-lateral-direita h2{
 
-    color: #f5702e;
+    color: #F2B031;
 }
 
 
 .mike .barra-lateral-esquerda li{
 
-    background-color: #f5702e;
+    background-color: #F2B031;
 }
 
 .mike .rodape {
 
-    background-color: #f5702e;
+    background-color: #F2B031;
 }
 
 /*inicio color*/
@@ -210,8 +211,8 @@ font-family: ninja;
 
 .perfil{
     display:block;
-    margin: 25px auto;
-    max-width: 25%;
+    margin: 30px auto;
+    max-width: 30%;
 }
 
 .barra-lateral-esquerda, .barra-lateral-direita {
