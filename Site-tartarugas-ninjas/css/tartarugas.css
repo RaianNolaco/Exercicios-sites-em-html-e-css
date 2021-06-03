@@ -17,21 +17,27 @@
 .cabecalho {
     background-color: #336699;
     color: #ffffff;
-    padding: 15px;
+    padding: 10px;
     height:12vh;
-}
-
-header{
-
     display: flex; 
     justify-content: center;
 }
 
+
+
 h1,h2,a{
 
-font-family: ninja;
+    font-family: ninja;
 
 }
+
+h2{
+
+    display: flex;
+    justify-content: center;
+
+}
+
 
 .logo{
 
@@ -52,6 +58,7 @@ font-family: ninja;
     width:100%;
 
 }
+
 /*Leonardo color*/
 .leo .cabecalho {
 
@@ -75,6 +82,8 @@ font-family: ninja;
 
     background-color: #637CC1;
 }
+/*------------------------------------------------------------------------------------------*/
+
 
 /*Raphael color*/
 .Rapha .cabecalho {
@@ -99,6 +108,8 @@ font-family: ninja;
 
     background-color: #B8342D;
 }
+/*------------------------------------------------------------------------------------------*/
+
 
 
 /*Donatello color*/
@@ -123,7 +134,7 @@ font-family: ninja;
 
     background-color: #9f6daa;
 }
-
+/*------------------------------------------------------------------------------------------*/
 
 /*Michelangelo color*/
 .mike .cabecalho {
@@ -147,6 +158,8 @@ font-family: ninja;
 
     background-color: #F2B031;
 }
+/*------------------------------------------------------------------------------------------*/
+
 
 /*inicio color*/
 .inicio .cabecalho {
@@ -170,6 +183,8 @@ font-family: ninja;
 
     background-color: #30AB49;
 }
+/*------------------------------------------------------------------------------------------*/
+
 
 /*Mestre splinter color*/
 .mestre .cabecalho {
@@ -193,6 +208,7 @@ font-family: ninja;
 
     background-color: #321018;
 }
+/*------------------------------------------------------------------------------------------*/
 
 .conteudo{
     width: 100%;
@@ -213,6 +229,12 @@ font-family: ninja;
     display:block;
     margin: 30px auto;
     max-width: 30%;
+}
+
+.inicio_perfil{
+    display:block;
+    margin: 30px auto;
+    max-width: 20%;
 }
 
 .barra-lateral-esquerda, .barra-lateral-direita {
@@ -300,11 +322,6 @@ img .armas{
     color: #FFF;
 }
 
-h1{
-
-    justify-content: center;
-
-}
 
 /* Desse ponto em diante estamos falando em responsive*/
 @media screen and (max-width: 768px) {
@@ -314,11 +331,19 @@ h1{
         padding:2%;
     }
 
+    /*Centraliza o titulo quando esta em telas menores*/
+     h1{
+    
+        font-size: 150%;
+        margin-top: 10px;
+     }
+
     .artigo{
         padding:2%;
         width:100%;
         display: inline-block;
     }
+
 
     .rodape {
         padding:5%;
