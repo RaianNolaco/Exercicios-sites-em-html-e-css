@@ -14,7 +14,6 @@
 
 }
 
-
 .cabecalho {
     background-color: #336699;
     color: #ffffff;
@@ -279,7 +278,6 @@ img .armas{
     width:100%;
     display: block;
 }
-
 #inicio_menu:hover{
 
     background-color: #30AB49;
